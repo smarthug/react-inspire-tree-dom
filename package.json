@@ -49,5 +49,9 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "inspire-tree": "^6.0.1",
+    "lodash": "^4.17.19"
+  }
 }
