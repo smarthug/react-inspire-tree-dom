@@ -4,30 +4,18 @@
 
 [![NPM](https://img.shields.io/npm/v/react-inspire-tree-dom.svg)](https://www.npmjs.com/package/react-inspire-tree-dom) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+## Motivation
+The origin version ([inspire-tree-dom](https://github.com/helion3/inspire-tree-dom)) is made with Inferno. This is same dom made with react by [chenz24](https://github.com/chenz24/react-inspire-tree)
+
 ## Install
 
 ```bash
 npm install --save react-inspire-tree-dom
 ```
 
-## Usage
 
-```jsx
-import React, { Component } from 'react'
 
-import MyComponent from 'react-inspire-tree-dom'
-import 'react-inspire-tree-dom/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
-```
-
-## License
-
-MIT © [smarthug](https://github.com/smarthug)
 
 
 
@@ -63,6 +51,10 @@ InspireTree is required.
 First, you need a valid instance of InspireTree, then you pass it and a target DOM element to InspireTreeDOM:
 
 ```js
+//check index.css file in example folder
+import './index.css'
+
+
 var tree = new InspireTree({
     data: [{
         text: 'A node'
@@ -170,3 +162,12 @@ function onDrop(event) {
     // console.log(exported.text);
 }
 ```
+
+## Thanks to
+- [Helion3 LLC](https://github.com/helion3)
+- [chenz24](https://github.com/chenz24)
+
+
+## License
+
+MIT © [smarthug](https://github.com/smarthug)
